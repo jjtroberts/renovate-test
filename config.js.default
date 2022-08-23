@@ -1,0 +1,11 @@
+module.exports = {
+  endpoint: "http://server:3000/api/v1/",
+  platform: "gitea",
+  token: "changeme",
+  gitAuthorName: "changeme",
+  gitAuthorEmail: "changeme",
+  logLevel: "debug",
+  onboardingConfig: { "extends": ["config:base"] },
+  autodiscover: true,
+  allowPlugins: true,
+};
