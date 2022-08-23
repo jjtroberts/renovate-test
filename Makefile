@@ -17,6 +17,7 @@ run:
 						--network=renovate-test_gitea \
 						--platform=linux/x86_64 \
 						-e RENOVATE_PLATFORM=gitea \
+						-e RENOVATE_GIT_AUTHOR="Joe Roberts <jroberts@rackner.com>" \
 						-e RENOVATE_ENDPOINT="http://server:3000/api/v1" \
 						-e RENOVATE_TOKEN=8fc538c3464fc061fab0c7d5d0889a75ab98025d \
 						-e RENOVATE_AUTODISCOVER='true' \
