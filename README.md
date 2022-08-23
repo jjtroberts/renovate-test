@@ -25,5 +25,5 @@ Makefile's `make run` command to whatever docker-compose creates. You can list y
 using `docker network ls`. This connects your standalone container with the docker-compose created network so renovate can talk to gitea.
 
 ## References
-https://docs.gitea.io/en-us/api-usage/
-https://docs.renovatebot.com/modules/platform/gitea/
+- https://docs.gitea.io/en-us/api-usage/
+- https://docs.renovatebot.com/modules/platform/gitea/
