@@ -14,10 +14,11 @@ You could simply stand up gitea and mysql, then use `make run` to execute renova
 2. Start: `make up`
 3. Go to Gitea at http://localhost:3000 (first registered user becomes the admin)
 4. Setup your user account and create a personal access token
-5. Change your username, email and the token in `config.js` and in the `Makefile`
-6. Restart: `make restart` to reload the config values
-7. Create a repo and check in your code
-8. Run: `make run` if you don't want to wait for renovate or want to use a different version
+5. Change your username, email and the token in `config.js` 
+6. Change the RENOVATE_TOKEN in the `Makefile`
+7. Restart: `make restart` to reload the config values
+8. Create a repo and check in your code
+9. Run: `make run` if you don't want to wait for renovate or want to use a different version
 
 ## Troubleshooting
 If you change the directory name after cloning, then you must also change the `--network` in the 
