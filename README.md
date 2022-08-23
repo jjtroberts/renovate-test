@@ -24,6 +24,11 @@ If you change the directory name after cloning, then you must also change the `-
 Makefile's `make run` command to whatever docker-compose creates. You can list your available networks
 using `docker network ls`. This connects your standalone container with the docker-compose created network so renovate can talk to gitea.
 
+Also, registry1 requires authentication before you can pull images:
+1. Setup your account here: https://login.dso.mil
+2. Create your CLI secret in harbor: https://registry1.dso.mil/harbor
+3. Login: `docker login registry1.dso.mil` and provide your username and harbor cli secret
+
 ## References
 - https://docs.gitea.io/en-us/api-usage/
 - https://docs.renovatebot.com/modules/platform/gitea/
